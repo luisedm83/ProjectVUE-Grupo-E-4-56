@@ -2,19 +2,19 @@
     <div id="contenido">
         <form class="formulario">
             <h1>Login</h1>
-            <div class="contenedor">
-                <div class="input-contenedor">
-                <i class="fas fa-envelope icon"></i>
-                <input type="text" placeholder="Correo Electronico">
-            </div>
-            <div class="input-contenedor">
-                <i class="fas fa-key icon"></i>
-                <input type="password" placeholder="Contraseña">
-            </div>
-            <input type="submit" value="Login" class="button">
-                <p>Login para ingreso de personal TúNailSpaWeb</p>
-                <p>¿No puedes ingresar? Contacta al Adminitrador del sitio</p>
-            </div>
+                <div class="contenedor">
+                    <div class="input-contenedor">
+                        <i class="fas fa-envelope icon"></i>
+                        <input type="email" id="mail" name="mail" placeholder="Correo Electronico">
+                    </div>
+                    <div class="input-contenedor">
+                        <i class="fas fa-key icon"></i>
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <input type="submit" value="Login" class="button">
+                    <p>Login para ingreso de personal TúNailSpaWeb</p>
+                    <p>¿No puedes ingresar? Contacta al Adminitrador del sitio</p>
+                </div>
         </form>
     
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3" 
@@ -44,7 +44,7 @@ export default{
         font-family: verdana;
         font-size: 60px;
     }
-    input[type="text"],
+    input[type="email"],
     input[type="password"]{
         font-size: 16px;
         width: 82%;

@@ -1,6 +1,6 @@
 <template>
     <div id="contenido">
-        <div class="container">
+        <div class="container"><br>
             <h2>Agendar Citas</h2>
         </div>
                 
@@ -31,21 +31,21 @@
                             <input type="email" class="form-control" id="mail" name="mail" placeholder="Correo electrónico" required>
                         </div>
                         <div class="campos-formulario form-group">
-                            <label>Edad</label>
-                            <input type="number" class="form-control" id="edad" name="edad" placeholder="Ingrese su edad">
-                        </div>
-                        <div class="campos-formulario form-group">
                             <label>Dirección (*)</label>
                             <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese su dirección" required>
                         </div>
+                         <div class="campos-formulario form-group">
+                            <label>Estilo No.</label>
+                            <input type="select" class="form-control" id="estilo" name="estilo" placeholder="Digite No. del Estilo encontrado en Servicios">
+                        </div> 
                         <div class="campos-formulario form-group">
-                            <label>Foto</label>
+                            <label>Si deseas adjunta tu diseño &nbsp;</label>
                             <input type="file" class="form-control-file" id="foto" name="foto" accept=".png">
                         </div>
                         <div class="campos-formulario form-group">
                             <div class="form-check">
                                 <label>He leído y acepto el tratamiento de mis datos</label>
-                                <input type="checkbox" class="form-check-input is-invalid" id="tratamiento_datos" name="tratamiento_datos" required>
+                                <input type="" class="form-check-input is-invalid" id="tratamiento_datos" name="tratamiento_datos" required>
                                 <div class="invalid-feedback">
                                     Campos con (*) son oligatorios                                    
                                 </div>
@@ -79,8 +79,8 @@
 <script>
 // import axios from 'axios'
 export default {
-    // data () {
-    //     return {
+    //data () {
+      //  return {
     //         cliente: {
     //             identificacion: '',
     //             nombres: '',
@@ -91,8 +91,9 @@ export default {
     //             direccion: '',
     //             tratamiento: ''
     //         }
-    //     }
-    // },
+    //    }
+    // }
+    //,
     // methods: {
     //     registrarCliente () {
     //         axios.post('http://localhost:3000/api/nuevo-cliente',

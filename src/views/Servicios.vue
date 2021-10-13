@@ -3,36 +3,84 @@
         <div class="container">
             <h2>Servicios</h2>
         </div>
-
+        <h3>Tú SpaNailsWeb cuenta con Manicure y Pedicure
+            <br>Diseños en:
+            <br>* Uñas acrílicas o de porcelana.
+            <br>* Uñas de gel.
+            <br>* Uñas esculpidas.
+            <br>* Wrapping de uñas.
+            <br>* Uñas de seda.</h3>
         <div id="galeria" class="container">
-            
+            <h2>Catálogo</h2>
             <div class="row fila-productos">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
-                    <img src="@/assets/unas1.jpg" class="imagen-producto">
+                    <img src="@/assets/unas6.jpg" class="imagen-producto">
                     <h4 class="precio-producto">$25.000</h4>
                     <div class="descripcion-producto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laborum sequi reprehenderit exercitationem tempore</p>
+                        <p>Estilo 001</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
-                    <img src="@/assets/unas4.jpg" class="imagen-producto">
+                    <img src="@/assets/unas7.png" class="imagen-producto">
                     <h4 class="precio-producto">$25.000</h4>
                     <div class="descripcion-producto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laborum sequi reprehenderit exercitationem tempore</p>
+                        <p>Estilo 002</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
                     <img src="@/assets/unas3.jpg" class="imagen-producto">
                     <h4 class="precio-producto">$25.000</h4>
                     <div class="descripcion-producto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laborum sequi reprehenderit exercitationem tempore</p>
+                        <p>Estilo 003</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas8.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 004</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas9.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 005</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas1.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 006</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
                     <img src="@/assets/unas2.jpg" class="imagen-producto">
                     <h4 class="precio-producto">$25.000</h4>
                     <div class="descripcion-producto">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, laborum sequi reprehenderit exercitationem tempore</p>
+                        <p>Estilo 007</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas4.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 008</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas5.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 009</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 tarjeta-producto">
+                    <img src="@/assets/unas10.jpg" class="imagen-producto">
+                    <h4 class="precio-producto">$25.000</h4>
+                    <div class="descripcion-producto">
+                        <p>Estilo 010</p>
                     </div>
                 </div>
             </div>

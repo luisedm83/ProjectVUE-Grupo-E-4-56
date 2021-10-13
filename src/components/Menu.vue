@@ -2,8 +2,7 @@
     <div id="contenido">
         <nav class="navbar navbar-light" style="background-color: #ffc6c7;">
             <a class="navbar-brand mb-0 h1" href="#">
-                <img src="@/assets/loto.svg" alt="" width="40" height="30">
-                Tú NailSpaWeb
+                <img src="@/assets/loto.svg" alt="" width="40" height="30">Tú NailSpaWeb
             </a>
                 <div id="seccion_menu">
                     <table id="navBar">

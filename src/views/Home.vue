@@ -1,6 +1,7 @@
 <template>
     <div id="inicio">
         <header>
+            <h3>Tú SpaNailsWeb donde tus uñas cobran vida<br>Contamos con personal calificado<br>Agenda tu cita</h3>
             <section>
                 <div class="container mt-5 mb-5">
                     <h5 class="text-center mb-3"> Nuestros Servicios</h5>
