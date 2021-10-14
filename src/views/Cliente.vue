@@ -34,18 +34,18 @@
                             <label>Dirección (*)</label>
                             <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Ingrese su dirección" required>
                         </div>
-                         <div class="campos-formulario form-group">
+                        <div class="campos-formulario form-group">
                             <label>Estilo No.</label>
-                            <input type="select" class="form-control" id="estilo" name="estilo" placeholder="Digite No. del Estilo encontrado en Servicios">
+                            <input type="text" class="form-control" id="estilo" name="estilo" placeholder="Digite No. del Estilo encontrado en Servicios">
                         </div> 
                         <div class="campos-formulario form-group">
-                            <label>Si deseas adjunta tu diseño &nbsp;</label>
+                            <label>Si deseas adjunta tu diseño en formato .PNG &nbsp;</label>
                             <input type="file" class="form-control-file" id="foto" name="foto" accept=".png">
                         </div>
                         <div class="campos-formulario form-group">
                             <div class="form-check">
                                 <label>He leído y acepto el tratamiento de mis datos</label>
-                                <input type="" class="form-check-input is-invalid" id="tratamiento_datos" name="tratamiento_datos" required>
+                                <input type="checkbox" class="form-check-input is-invalid" id="tratamiento_datos" name="tratamiento_datos" required>
                                 <div class="invalid-feedback">
                                     Campos con (*) son oligatorios                                    
                                 </div>

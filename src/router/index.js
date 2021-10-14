@@ -28,7 +28,16 @@ const routes = [
         path: "/login",
         name: "Login",
         component: Login
-    }
+     }//,
+    // {
+    //     path: '/posts/:id',
+    //     name: 'post',
+    //     component: Posts,
+    //     meta: { Auth: false, title: 'Listado de posts' }
+    //   }
+
+
+
     // {
     //     path: "/clientes/editar",
     //     name: "EditarCliente",
